@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Veilwork</title>
+		<title>VEILWORK</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -164,6 +164,25 @@
 
 			#cta { background: var(--bg); color: var(--text); }
 			#cta .inner header p { color: var(--text-sec); }
+
+			/* Vertically center the content column inside each project spotlight */
+			.spotlight { display: flex !important; align-items: stretch !important; }
+			.spotlight .image {
+				align-self: stretch !important;
+				overflow: hidden;
+			}
+			.spotlight .image img {
+				width: 100% !important;
+				height: 100% !important;
+				object-fit: cover !important;
+				object-position: center !important;
+				display: block;
+			}
+			.spotlight .content {
+				display: flex !important;
+				flex-direction: column !important;
+				justify-content: center !important;
+			}
 
 			/* Match body typography to the hero — Georgia serif below the hero */
 			#one, #one *,
@@ -424,7 +443,7 @@ body{background:var(--bg);color:var(--text);}
   <div class="hero-content">
     <img class="eyebrow-logo" src="images/logo.svg" alt="Veilwork">
     <div class="headline">Defense technology<br>pulled from the <span class="ae-lig">Æ</span>ther</div>
-    <div class="subline">Independent research and development at the intersection of autonomous systems, computer vision, and unmanned aerial platforms.</div>
+    <div class="subline">Independent research and development of autonomous systems, computer vision, and unmanned aerial platforms.</div>
     <div class="tags">
       <span class="tag">Autonomous systems</span>
       <span class="tag">Counter-UAS</span>
@@ -474,7 +493,7 @@ body{background:var(--bg);color:var(--text);}
 					<section id="two" class="wrapper alt style2">
 
 						<section class="spotlight" id="projects">
-							<div class="image"><img src="images/pic01.jpg" alt="Silhouette of a bird of prey soaring with wings fully spread against a muted sky" /></div><div class="content">
+							<div class="image"><img src="images/pic01.jpg" alt="Long-exposure photograph of a missile arcing across a dark night sky against stars" /></div><div class="content">
 								<span class="project-label">STRIX</span>
 								<h2>Autonomous counter-drone<br />
 								guidance system</h2>
@@ -525,7 +544,7 @@ body{background:var(--bg);color:var(--text);}
 							<ul class="features">
 								<li class="icon solid fa-paper-plane">
 									<h3>Autonomous systems</h3>
-									<p>Systems that close on or maintain formation with targets across all major flight modes, without operator input.</p>
+									<p>Systems that close on targets across all major flight modes, without operator input.</p>
 								</li>
 								<li class="icon solid fa-code">
 									<h3>Counter-UAS</h3>
@@ -576,11 +595,10 @@ body{background:var(--bg);color:var(--text);}
 						</ul>
 						<p class="site-credits">
 							Imagery credits —
-							MQ-9 Reaper (US Air Force, public domain);
+							Minuteman III night launch (<a href="https://commons.wikimedia.org/wiki/File:GT244_Launches_from_Vandenberg_(7402875).jpeg">US Air Force</a>, public domain);
 							Black Marble (NASA, public domain);
 							Hubble Ultra Deep Field (NASA / ESA, public domain);
-							Optical fiber bundle (<a href="https://commons.wikimedia.org/wiki/File:LED_Glasfaser.jpg">LED_Glasfaser</a>, CC BY-SA 3.0);
-							Black kite silhouette (<a href="https://commons.wikimedia.org/wiki/File:Eagle_Silhouette.jpg">Kandukuru Nagarjun</a>, CC BY-SA 4.0).
+							Optical fiber bundle (<a href="https://commons.wikimedia.org/wiki/File:LED_Glasfaser.jpg">LED_Glasfaser</a>, CC BY-SA 3.0).
 							Site scaffolding: Spectral by <a href="http://html5up.net">HTML5 UP</a> (CCA 3.0).
 						</p>
 					</footer>

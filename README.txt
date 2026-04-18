@@ -1,3 +1,6 @@
+Contact me at Nick@Veilwork.io
+
+Scaffolding by:
 Spectral by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -43,3 +46,5 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+Imagery credits — Black Marble (NASA, public domain); Hubble Ultra Deep Field (NASA / ESA, public domain); Optical fiber bundle (LED_Glasfaser, CC BY-SA 3.0); Black kite silhouette (Kandukuru Nagarjun, CC BY-SA 4.0). Site scaffolding: Spectral by HTML5 UP (CCA 3.0).

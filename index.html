@@ -164,6 +164,15 @@
 			#cta { background: var(--bg); color: var(--text); }
 			#cta .inner header p { color: var(--text-sec); }
 
+			/* Match body typography to the hero — Georgia serif below the hero */
+			#one, #one *,
+			#two, #two *,
+			#three, #three *,
+			#cta, #cta *,
+			#footer, #footer * {
+				font-family: Georgia, serif;
+			}
+
 			.site-credits { font-size: 10px; line-height: 1.6; color: var(--text-sec); opacity: 0.55; max-width: 900px; margin: 2em auto 0; padding: 0 1.5em; text-align: center; letter-spacing: 0.03em; }
 			.site-credits a { color: var(--text-sec); text-decoration: underline; text-decoration-color: var(--border); }
 			.site-credits a:hover { color: var(--accent); text-decoration-color: var(--accent); }
